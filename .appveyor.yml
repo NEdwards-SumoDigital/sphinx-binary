@@ -20,7 +20,7 @@ test: off
 matrix:
   fast_finish: true
 artifacts:
-  - path: build\dist\*
+  - path: build\dist\run_sphinx
     name: Releases
 deploy:
   provider: GitHub
